@@ -1,0 +1,129 @@
+body {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 1.0rem;
+    line-height: 1.75;
+    text-align: center;
+    background-color: rgb(245, 239, 230);
+}
+
+h1 {
+    animation: fade 3s ease;
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 3.5rem;
+    padding-top: 5%;
+}
+
+h2 {
+    animation: fade 3s ease;
+    color: rgb(102, 102, 102);
+    font-family: "Dosis", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-style: italic;
+    font-size: 1.5rem;
+    padding: 2.5%;
+}
+
+h3 {
+    color: rgb(51, 102, 204);
+    font-size: 1.5rem;
+    padding-bottom: 2%;
+}
+
+hr {
+    color: rgb(102, 102, 102);
+    border-top: 10px dotted;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 5%
+}
+
+.introduction {
+    animation: fade 3s ease;
+    color: rgb(102, 102, 102);
+    font-size: 1.25rem;
+}
+
+.bottom {
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+.activities {
+    padding: 5%;
+    margin: auto;
+}
+
+.description {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.essay {
+    text-indent: 50px;
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+.img-gallery {
+    margin: auto auto auto;
+    /*Used "margin: auto" to center text.*/
+    padding: 4% 20% 4%;
+}
+
+.img-descrip {
+    margin: auto auto auto;
+    padding: 4% 0%;
+    width: 40%;
+}
+
+.nav-link {
+    color: black;
+}
+
+.reveal {
+    animation: fade 4s ease both;
+    animation-timeline: view();
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+#header-img {
+    width: 100%;
+    height: 10%;
+    animation: fade 3s ease forwards;
+}
+
+#pumpkin-arch-img {
+    width: 20%;
+}
+
+#ship-img {
+    width: 30%;
+}
+
+#mombies-flash-mob-img {
+    width: 30%;
+}
